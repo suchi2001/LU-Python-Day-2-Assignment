@@ -1,0 +1,367 @@
+Basic Python Syntax
+Python Variables and Assignment Statement
+Python Operators
+In [1]:
+
+
+print("Basic python syntax:")
+
+
+
+Basic python syntax:
+In [90]:
+
+
+print("1.Back Slash\n","2.Tirple Quotes\n","3.String inside the quotes\n","4.Escape sequence of string\n","5.Formattes Output")
+
+
+
+1.Back Slash
+ 2.Tirple Quotes
+ 3.String inside the quotes
+ 4.Escape sequence of string
+ 5.Formattes Output
+In [4]:
+
+
+print("1.Back Slash:")
+
+
+
+1.Back Slash:
+In [11]:
+
+
+print("I am \
+suchitra")
+
+
+
+I am suchitra
+In [10]:
+
+
+print("2.Tirple Quotes:")
+
+
+
+2.Tirple Quotes:
+In [18]:
+
+
+print("""(\_/)
+( •,•)
+(")_(") """)
+      
+
+
+
+(\_/)
+( •,•)
+(")_(") 
+In [20]:
+
+
+print("3.String inside the Quotes:")
+
+
+
+3.String inside the Quotes:
+In [21]:
+
+
+print("Mom's Magic")
+
+
+
+Mom's Magic
+In [23]:
+
+
+print("4.Escape Sequence of String:")
+
+
+
+4.Escape Sequence of String:
+In [24]:
+
+
+print("Hello \t Python")
+
+
+
+Hello 	 Python
+In [25]:
+
+
+print("Hello \n Python")
+
+
+
+Hello 
+ Python
+In [26]:
+
+
+print("5.Formatted Output:")
+
+
+
+5.Formatted Output:
+In [42]:
+
+
+name="Suchitra"
+age="20"
+mark="60"
+print("My name is",name,"my age is",age,"and my mark is",mark)
+
+
+
+My name is Suchitra my age is 20 and my mark is 60
+In [41]:
+
+
+print(f"My name is {name} my age is {age} and my mark is {mark}")
+
+
+
+My name is Suchitra my age is 20 and my mark is 80
+In [47]:
+
+
+print("Python Variables and Assignment Statement:")
+print("Python Varaible:")
+print("1.Variable means linking of the data to a name\n",
+"2.According to the data type the interpreter reserves the memory space\n",
+"3.Variable refers to the memory location that contains the data")
+
+
+
+Python Variables and Assignment Statement:
+Python Varaible:
+1.Variable means linking of the data to a name
+ 2.According to the data type the interpreter reserves the memory space
+ 3.Variable refers to the memory location that contains the data
+In [52]:
+
+
+print("Rules to defined a varaiable:")
+print("1.A keyword cannot be used as a variable for,if,def are the reserved keyword.They cannot be used as varaiable\n",
+     "2.A variable can contains letter (Upper case or Lower case),numbers,underscore\n",
+     "3.Python is case sensitive, and hence,variables are also case sensitive\n",
+     "4.Varaible cannot start witha a number\n"
+     "5.A varaible is assigned to data by using the assignment operator")
+
+
+
+Rules to defined a varaiable:
+1.A keyword cannot be used as a variable for,if,def are the reserved keyword.They cannot be used as varaiable
+ 2.A variable can contains letter (Upper case or Lower case),numbers,underscore
+ 3.Python is case sensitive, and hence,variables are also case sensitive
+ 4.Varaible cannot start witha a number
+5.A varaible is assigned to data by using the assignment operator
+In [53]:
+
+
+print("Python Operators:")
+
+
+
+Python Operators:
+In [54]:
+
+
+print("1.Addition:")
+
+
+
+1.Addition:
+In [55]:
+
+
+125+346
+
+
+Out[55]:
+471
+In [56]:
+
+
+print("2.Subtraction:")
+
+
+
+2.Subtraction:
+In [57]:
+
+
+456-234
+
+
+Out[57]:
+222
+In [59]:
+
+
+print("3.Multiplcation:")
+
+
+
+3.Multiplcation:
+In [60]:
+
+
+56*6
+
+
+Out[60]:
+336
+In [61]:
+
+
+56**6
+
+
+Out[61]:
+30840979456
+In [62]:
+
+
+print("4.Division:")
+
+
+
+4.Division:
+In [63]:
+
+
+23/9
+
+
+Out[63]:
+2.5555555555555554
+In [64]:
+
+
+print("5.Modulo:")
+
+
+
+5.Modulo:
+In [65]:
+
+
+34%7
+
+
+Out[65]:
+6
+In [66]:
+
+
+print("6.Floor Variable:")
+
+
+
+6.Floor Variable:
+In [67]:
+
+
+34//8
+
+
+Out[67]:
+4
+In [69]:
+
+
+print("Comparsion:")
+
+
+
+Comparsion:
+In [76]:
+
+
+a=60
+b=20
+a==b
+
+
+Out[76]:
+False
+In [77]:
+
+
+c<a
+
+
+Out[77]:
+True
+In [78]:
+
+
+c<=a
+
+
+Out[78]:
+True
+In [79]:
+
+
+a>b
+
+
+Out[79]:
+True
+In [80]:
+
+
+a>=b
+
+
+Out[80]:
+True
+In [84]:
+
+
+str1="pythonprogramming"
+"a"in str1
+
+
+Out[84]:
+True
+In [86]:
+
+
+str2="pythonprogramming"
+"m"not in str2 
+
+
+Out[86]:
+False
+In [87]:
+
+
+a is b
+
+
+Out[87]:
+False
+In [88]:
+
+
+id(a)
+
+
+Out[88]:
+1833426064
+In [89]:
+
+
+id(b)
+
+
+Out[89]:
+1833425424
